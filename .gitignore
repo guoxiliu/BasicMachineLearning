@@ -1,0 +1,7 @@
+.hg
+.bzr
+.svn
+.png
+*.pyc
+*.pyo
+*.tmp*
