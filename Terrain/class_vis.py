@@ -11,7 +11,7 @@ import numpy as np
 
 #plt.ioff()
 
-def prettyPicture(clf, X_test, y_test):
+def prettyPicture(clf, X_test, y_test, filename):
     x_min = 0.0; x_max = 1.0
     y_min = 0.0; y_max = 1.0
 
@@ -40,7 +40,7 @@ def prettyPicture(clf, X_test, y_test):
     plt.xlabel("bumpiness")
     plt.ylabel("grade")
 
-    plt.savefig("test.png")
+    plt.savefig(filename)
     
 import base64
 import json
