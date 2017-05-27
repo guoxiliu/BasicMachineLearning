@@ -34,4 +34,4 @@ NBAccuracy(clf, features_test, labels_test)
 
 ### draw the decision boundary with the text points overlaid
 prettyPicture(clf, features_test, labels_test)
-# output_image("test.png", "png", open("test.png", "rb").read())
+output_image("test.png", "png", open("test.png", "rb").read())
